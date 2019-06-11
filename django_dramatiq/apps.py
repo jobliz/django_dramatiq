@@ -13,7 +13,6 @@ DEFAULT_BROKER_SETTINGS = {
     "OPTIONS": {
         "host": "127.0.0.1",
         "port": 5672,
-        "heartbeat_interval": 0,
         "connection_attempts": 5,
     },
     "MIDDLEWARE": [
